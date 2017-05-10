@@ -119,3 +119,8 @@
     % define a foreach command in algorithms
     \algnewcommand\algorithmicforeach{\textbf{foreach}}
     \algdef{S}[FOR]{ForEach}[1]{\algorithmicforeach\ #1\ \algorithmicdo}
+
+    \usepackage{fancyvrb}
+    \newenvironment{CVerbatim}
+      {\singlespacing\center\BVerbatim}
+      {\endBVerbatim\endcenter} 
